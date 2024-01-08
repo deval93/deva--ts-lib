@@ -1,0 +1,32 @@
+{
+  "name": "deval-ts-lib",
+  "version": "1.0.19",
+  "description": "",
+  "main": "./default/cjs/index.js",
+  "module": "./default/esm/index.js",
+  "files": [
+    "default/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc"
+  },
+  "keywords": [],
+  "author": "Deval Kasundra",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/redis": "^4.0.11",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.6.7",
+    "winston": "^3.9.0"
+  }
+}

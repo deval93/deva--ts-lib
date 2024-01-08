@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+default/
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor-specific files
+.idea/
+.vscode/
+*.sublime-*
+
+# Compiled output
+*.min.js
+*.min.css
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Output of npm's 'npm pack'
+*.tgz
+
+# Ignore config files that may contain sensitive information
+config.js
+config.json
+
+# Ignore npm-debug.log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore pnpm debug logs
+pnpm-debug.log*
+
+# Ignore Yarn v2 state files
+.yarn/*
+.yarnrc.yml
+.yarnrc.yml.sig
+.yarn/plugins
+.yarn/sdks
+
+# Jest snapshot directory
+__snapshots__/
+
+# Ignoring Jekyll build directory (if applicable)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignoring Next.js build output (if applicable)
+.next/
+out/
+
+# Ignoring Gatsby build output (if applicable)
+.cache/
+public/
+
+# Ignoring Vue.js build output (if applicable)
+/dist/
+
+# Ignore Nuxt.js build output (if applicable)
+.nuxt/
